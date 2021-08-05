@@ -1,4 +1,4 @@
-# Payment Gateway
+# Api template
 
 ## Background
 
@@ -6,12 +6,7 @@
 The product requirements for this initial phase are the following:
 1. A merchant should be able to save a card through the payment gateway and receive either a
 successful or unsuccessful response
-2. A merchant should be able to retrieve the details of a previously made payment
-
-## Deliverables
-1. Build an API that allows a merchant to
-  • Process a payment through your payment gateway.
-  • Retrieve details of a previously made payment.
+2. A merchant should be able to retrieve the details of a previously made payment.
 
 ##  Description
 
@@ -58,6 +53,9 @@ individual software modules are combined and tested as a group
 ### Swagger documentation
   - Swagger generate file for last version of api under this link ```/swagger/v1/swagger.json```
   - I created another swagger file before start working under ```Git\Payment.Gateway\WebApi\docs\WebApi.swagger.json```
+### Docker 
+  - Developing apps today requires so much more than writing code. Multiple languages, frameworks, architectures, and discontinuous interfaces between tools for each lifecycle stage creates enormous complexity. Docker simplifies and accelerates your workflow, while giving developers the freedom to innovate with their choice of tools, application stacks, and deployment environments for each project.
+  - Docker for Database SQL server.
 
 ### Database scripts 
 Path under ```WebApi\DBScript\```
